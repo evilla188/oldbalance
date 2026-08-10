@@ -22,6 +22,7 @@
   <section id="game" class="screen">
     <header class="hud">
       <div class="brand">OLD BALANCE</div>
+      <div class="rank">👔 <b id="rank">Asesor</b></div>
       <div class="stats">
         <span>💵 $<b id="money">9000</b></span>
         <span>😊 <b id="happy">0</b></span>
@@ -30,15 +31,22 @@
       </div>
     </header>
 
+    <div id="eventBanner" class="event-banner hidden"></div>
+
     <main class="store">
       <div class="awning">OLD BALANCE · DEPORTES &amp; ESTILO</div>
       <div class="shelf shelf1"><span>👟</span><span>👕</span><span>👟</span><span>🧢</span></div>
       <div class="shelf shelf2"><span>👕</span><span>👟</span><span>🧥</span><span>👟</span></div>
       <div class="counter">CAJA</div>
-      <div id="guille" class="character guille"><div class="head"></div><div class="body"></div><div class="legs"></div></div>
-      <div id="customer" class="character customer"><div class="head"></div><div class="body"></div><div class="legs"></div></div>
+
+      <div id="guille" class="character guille"><div class="head"></div><div class="body"></div><div class="legs"></div><div class="name-tag">Guille</div></div>
+      <div id="rodrigo" class="character coworker rodrigo"><div class="head"></div><div class="body"></div><div class="legs"></div><div class="name-tag">Rodrigo</div></div>
+      <div id="senora" class="character coworker senora"><div class="head"></div><div class="body"></div><div class="legs"></div><div class="name-tag">La Señora</div></div>
+      <div id="customer" class="character customer"><div class="head"></div><div class="body"></div><div class="legs"></div><div id="customerTag" class="name-tag">Cliente</div></div>
       <div id="customerBubble" class="speech customer-speech hidden"></div>
       <div id="guilleBubble" class="speech guille-speech hidden"></div>
+      <div id="coworkerBubble" class="speech coworker-speech hidden"></div>
+      <div id="returnBadge" class="return-badge hidden">↩ Cliente recurrente</div>
     </main>
 
     <section id="dialogPanel" class="dialog-panel hidden">
@@ -64,6 +72,8 @@
         <div><small>Comisión</small><strong id="rCommission">$0</strong></div>
         <div><small>Experiencia</small><strong id="rExperience">0/100</strong></div>
         <div><small>Reputación</small><strong id="rRating">4.0★</strong></div>
+        <div><small>Puesto final</small><strong id="rRank">Asesor</strong></div>
+        <div><small>Clientes que regresaron</small><strong id="rReturns">0</strong></div>
       </div>
       <div id="finalMessage" class="final-message"></div>
       <button id="restartBtn">JUGAR DE NUEVO</button>
