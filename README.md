@@ -1,13 +1,29 @@
 # Old Balance Experience
 
-Demo de videojuego 2D para una presentación de Mercadotecnia de Experiencias.
-
-## Cómo probarlo
-
-Puedes abrir `index.html` directamente en el navegador.
-
-La demo incluye menú, tienda, diálogos con clientes, dinero, comisión, estrés, experiencia y reporte final.
+Prototipo de videojuego 2D para una presentación de **Mercadotecnia de Experiencias**.
 
 ## Concepto
+El jugador interpreta a **Guille**, asesor de ventas de una tienda deportiva ficticia llamada **Old Balance**. Las decisiones durante la atención afectan la experiencia del cliente, las ventas, la comisión, el estrés y la reputación.
 
-El jugador interpreta a Guille, asesor de ventas de Old Balance. Cada decisión durante la atención modifica la experiencia del cliente, las ventas y la satisfacción.
+## Cómo probarlo
+Abre `index.html` directamente en tu navegador.
+
+También puede publicarse con GitHub Pages.
+
+## Contenido actual
+- Menú principal estilo retro.
+- Tienda visual con productos.
+- Cinco clientes con personalidades distintas.
+- Respuestas con consecuencias diferentes.
+- Dinero y comisión del 3% sobre ventas.
+- Clientes felices.
+- Experiencia y estrés.
+- Reporte final del día.
+
+## Próximas mejoras
+- Clientes recurrentes.
+- Ascensos: Asesor Senior → Subgerente → Gerente.
+- Eventos aleatorios.
+- Más diálogo para Guille, Rodrigo y La Señora.
+- Sonidos y música.
+- Animaciones y más arte pixel.
