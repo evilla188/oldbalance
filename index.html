@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Old Balance Experience</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div id="app">
+  <section id="menu" class="screen active">
+    <div class="title-card">
+      <div class="studio">PIXEL FORGE STUDIOS</div>
+      <h1>OLD BALANCE<br><span>EXPERIENCE</span></h1>
+      <p class="tagline">No vendes productos.<br>Creas experiencias.</p>
+      <button id="startBtn">▶ NUEVA PARTIDA</button>
+      <button id="aboutBtn" class="secondary">CRÉDITOS</button>
+      <div class="hint">Demo universitaria · Mercadotecnia de Experiencias</div>
+    </div>
+  </section>
+
+  <section id="game" class="screen">
+    <header class="hud">
+      <div class="brand">OLD BALANCE</div>
+      <div class="stats">
+        <span>💵 $<b id="money">9000</b></span>
+        <span>😊 <b id="happy">0</b></span>
+        <span>⭐ <b id="experience">0</b></span>
+        <span>😵 <b id="stress">10</b>%</span>
+      </div>
+    </header>
+
+    <main class="store">
+      <div class="awning">OLD BALANCE · DEPORTES &amp; ESTILO</div>
+      <div class="shelf shelf1"><span>👟</span><span>👕</span><span>👟</span><span>🧢</span></div>
+      <div class="shelf shelf2"><span>👕</span><span>👟</span><span>🧥</span><span>👟</span></div>
+      <div class="counter">CAJA</div>
+      <div id="guille" class="character guille"><div class="head"></div><div class="body"></div><div class="legs"></div></div>
+      <div id="customer" class="character customer"><div class="head"></div><div class="body"></div><div class="legs"></div></div>
+      <div id="customerBubble" class="speech customer-speech hidden"></div>
+      <div id="guilleBubble" class="speech guille-speech hidden"></div>
+    </main>
+
+    <section id="dialogPanel" class="dialog-panel hidden">
+      <div class="client-top">
+        <div>
+          <div id="clientName" class="client-name">Sofía</div>
+          <div id="clientMood" class="client-mood">🙂 Explorando</div>
+        </div>
+        <div class="stars" id="clientStars">★★★★★</div>
+      </div>
+      <p id="clientText" class="client-text"></p>
+      <div id="choices" class="choices"></div>
+    </section>
+  </section>
+
+  <section id="report" class="screen">
+    <div class="report-card">
+      <div class="report-title">REPORTE DEL DÍA</div>
+      <div class="report-grid">
+        <div><small>Clientes atendidos</small><strong id="rClients">0</strong></div>
+        <div><small>Clientes felices</small><strong id="rHappy">0</strong></div>
+        <div><small>Ventas</small><strong id="rSales">$0</strong></div>
+        <div><small>Comisión</small><strong id="rCommission">$0</strong></div>
+        <div><small>Experiencia</small><strong id="rExperience">0/100</strong></div>
+        <div><small>Reputación</small><strong id="rRating">4.0★</strong></div>
+      </div>
+      <div id="finalMessage" class="final-message"></div>
+      <button id="restartBtn">JUGAR DE NUEVO</button>
+    </div>
+  </section>
+</div>
+<script src="game.js"></script>
+</body>
+</html>
