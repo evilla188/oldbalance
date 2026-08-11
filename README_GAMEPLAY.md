@@ -16,7 +16,13 @@ Atender clientes de Old Balance, crear buenas experiencias y aumentar tus ventas
 - Rodrigo y La Señora como compañeros.
 - Reporte del día.
 - Efectos de sonido generados con Web Audio API.
+- Jornada de apertura de tienda.
+- Indicadores visuales de experiencia y estrés.
 
 ## Conceptos de Mercadotecnia de Experiencias
 
 El juego busca demostrar que una interacción personalizada puede aumentar satisfacción, fidelización y valor de la venta. Las decisiones no solo afectan la venta inmediata: también pueden influir en la percepción y el regreso del cliente.
+
+## Presentación
+
+La demo está pensada para jugarse en navegador y grabarse directamente para una exposición. La estructura prioriza una experiencia corta, clara y fácil de explicar frente al profesor.
